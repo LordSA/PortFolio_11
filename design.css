@@ -1,473 +1,412 @@
 .background-icon {
-  	position: absolute;
-  	top: 90px;
-  	left: -69.17px;
-  	width: 1658.3px;
-  	height: 5431.7px;
+	position: absolute;
+	top: 5vw;
+	left: -4vw;
+	width: 100vw;
+	max-width: 1658.3px;
+	height: 80vh;
+	max-height: 5431.7px;
 }
 .footer1 {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	box-shadow: 1.6666666269302368px 5px 18.33px -2.5px rgba(0, 0, 0, 0.1);
-  	background-color: #080537;
-  	border: 0.8px solid #000;
-  	box-sizing: border-box;
-  	width: 1650px;
-  	height: 326.7px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	box-shadow: 1.7px 5px 18px -2.5px rgba(0, 0, 0, 0.1);
+	background-color: #080537;
+	border: 0.8px solid #000;
+	box-sizing: border-box;
+	width: 100vw;
+	max-width: 1650px;
+	height: 22vh;
+	max-height: 326.7px;
 }
-.vector-icon {
-  	width: 23.6px;
-  	position: relative;
-  	height: 23.6px;
-  	cursor: pointer;
-}
-.vector-icon1 {
-  	width: 25.7px;
-  	position: relative;
-  	height: 25.8px;
-  	cursor: pointer;
-}
-.vector-icon2 {
-  	width: 23.1px;
-  	position: relative;
-  	height: 23.6px;
-  	cursor: pointer;
-}
-.vector-icon3 {
-  	width: 25.8px;
-  	position: relative;
-  	height: 25.2px;
-  	cursor: pointer;
-}
-.vector-icon4 {
-  	width: 24.6px;
-  	position: relative;
-  	height: 23.3px;
-  	cursor: pointer;
-}
+.vector-icon,
+.vector-icon1,
+.vector-icon2,
+.vector-icon3,
+.vector-icon4,
 .vector-icon5 {
-  	width: 27.1px;
-  	position: relative;
-  	height: 20.7px;
+	width: 2vw;
+	min-width: 23px;
+	max-width: 28px;
+	height: 2vw;
+	min-height: 20px;
+	max-height: 26px;
+	cursor: pointer;
+	position: relative;
 }
 .vector-parent {
-  	position: absolute;
-  	top: 240.83px;
-  	left: 640px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: flex-start;
-  	gap: 33.6px;
+	position: absolute;
+	top: 74%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 2vw;
 }
 .connect {
-  	align-self: stretch;
-  	position: relative;
-  	letter-spacing: 0.02em;
+	align-self: stretch;
+	position: relative;
+	letter-spacing: 0.02em;
 }
 .whether-its-a {
-  	margin: 0;
+	margin: 0;
 }
 .whether-its-a-container {
-  	align-self: stretch;
-  	position: relative;
-  	font-size: 16.14px;
-  	letter-spacing: 0.02em;
+	align-self: stretch;
+	position: relative;
+	font-size: 1vw;
+	letter-spacing: 0.02em;
 }
 .connect-parent {
-  	position: absolute;
-  	top: 33.33px;
-  	left: 216.67px;
-  	width: 917.8px;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	justify-content: flex-start;
+	position: absolute;
+	top: 10%;
+	left: 13vw;
+	width: 55vw;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 .footer {
-  	position: absolute;
-  	top: 5150.83px;
-  	left: -69.17px;
-  	width: 1650px;
-  	height: 326.7px;
-  	font-size: 38.74px;
-  	color: #fff;
-  	font-family: Preahvihear;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	max-width: 1650px;
+	height: 22vh;
+	max-height: 326.7px;
+	font-size: 2.5vw;
+	color: #fff;
+	font-family: Preahvihear;
 }
 .header1 {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	box-shadow: 1.6666666269302368px 5px 18.33px -2.5px rgba(0, 0, 0, 0.1);
-  	background-color: #080537;
-  	border: 0.8px solid #000;
-  	box-sizing: border-box;
-  	width: 1650px;
-  	height: 94.2px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	box-shadow: 1.7px 5px 18px -2.5px rgba(0, 0, 0, 0.1);
+	background-color: #080537;
+	border: 0.8px solid #000;
+	box-sizing: border-box;
+	width: 100vw;
+	max-width: 1650px;
+	height: 6vh;
+	max-height: 94.2px;
 }
 .sa-1-icon {
-  	width: 64.2px;
-  	position: relative;
-  	max-height: 100%;
-  	object-fit: contain;
+	width: 4vw;
+	max-width: 64.2px;
+	position: relative;
+	max-height: 100%;
+	object-fit: contain;
 }
 .sa-graphics {
-  	width: 243.3px;
-  	position: relative;
-  	text-transform: uppercase;
-  	display: inline-block;
-  	height: 77.4px;
-  	flex-shrink: 0;
+	width: 15vw;
+	max-width: 243.3px;
+	position: relative;
+	text-transform: uppercase;
+	display: inline-block;
+	height: 5vw;
+	max-height: 77.4px;
+	flex-shrink: 0;
 }
 .sa-1-parent {
-  	display: flex;
-  	flex-direction: row;
-  	align-items: flex-end;
-  	justify-content: flex-start;
-  	gap: 39.2px;
-  	font-size: 64.89px;
-  	font-family: 'League Gothic';
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: flex-start;
+	gap: 2vw;
+	font-size: 4vw;
+	font-family: 'League Gothic';
 }
 .home {
-  	position: relative;
+	position: relative;
 }
-.home-wrapper {
-  	width: 186.7px;
-  	border-radius: 31.72px;
-  	border: 2.1px solid #fff;
-  	box-sizing: border-box;
-  	height: 42.5px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 5.5px 35.2px;
-  	cursor: pointer;
+.home-wrapper,
+.projects-wrapper,
+.designs-wrapper {
+	width: 12vw;
+	min-width: 130px;
+	max-width: 190px;
+	border-radius: 2vw;
+	border: 2.1px solid #fff;
+	box-sizing: border-box;
+	height: 3vw;
+	max-height: 43px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5vw 2vw;
+	cursor: pointer;
 }
 .designs-wrapper {
-  	width: 187.5px;
-  	filter: drop-shadow(0px 3.3333332538604736px 3.33px rgba(0, 0, 0, 0.25));
-  	border-radius: 31.72px;
-  	border: 2.1px solid #ed7b23;
-  	box-sizing: border-box;
-  	height: 42.5px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 1.4px 13.8px;
-  	color: #ed7b23;
-}
-.projects-wrapper {
-  	width: 186.7px;
-  	border-radius: 31.72px;
-  	border: 2.1px solid #fff;
-  	box-sizing: border-box;
-  	height: 42.5px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 2.1px 22.1px;
-  	cursor: pointer;
+	border: 2.1px solid #ed7b23;
+	color: #ed7b23;
+	filter: drop-shadow(0px 3.3px 3.3px rgba(0, 0, 0, 0.25));
 }
 .frame-parent {
-  	position: absolute;
-  	top: 7.5px;
-  	left: 141.67px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: flex-start;
-  	gap: 123.3px;
+	position: absolute;
+	top: 1vh;
+	left: 8vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 8vw;
 }
 .header {
-  	position: absolute;
-  	top: -1.67px;
-  	left: -65px;
-  	width: 1650px;
-  	height: 94.2px;
-  	font-size: 27.2px;
-  	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	max-width: 1650px;
+	height: 6vh;
+	max-height: 94.2px;
+	font-size: 2vw;
+	color: #fff;
 }
 .sa-graphics2 {
-  	position: absolute;
-  	top: 5435.83px;
-  	left: 704.17px;
-  	font-size: 6.88px;
-  	letter-spacing: 0.02em;
-  	font-family: Preahvihear;
-  	color: #fff;
+	position: absolute;
+	bottom: 0.5vh;
+	left: 44vw;
+	font-size: 0.5vw;
+	letter-spacing: 0.02em;
+	font-family: Preahvihear;
+	color: #fff;
 }
 .sa-designs-page-child {
-  	position: absolute;
-  	top: 5431.63px;
-  	left: 567.5px;
-  	width: 325px;
-  	height: 0px;
-  	object-fit: contain;
+	position: absolute;
+	bottom: 1vh;
+	left: 35vw;
+	width: 20vw;
+	max-width: 325px;
+	height: 0px;
+	object-fit: contain;
 }
-.gradient {
-  	position: absolute;
-  	top: 231.5px;
-  	left: 584.31px;
-  	border-radius: 50%;
-  	background: radial-gradient(50% 50% at 50% 50%, #763cac, rgba(50, 15, 133, 0));
-  	width: 642.3px;
-  	height: 720.4px;
-}
-.gradient1 {
-  	position: absolute;
-  	top: 2513.17px;
-  	left: 584.05px;
-  	border-radius: 50%;
-  	background: radial-gradient(50% 50% at 50% 50%, #763cac, rgba(50, 15, 133, 0));
-  	width: 642.3px;
-  	height: 720.4px;
-}
-.gradient2 {
-  	position: absolute;
-  	top: 1399px;
-  	left: 612.5px;
-  	border-radius: 50%;
-  	background: radial-gradient(50% 50% at 50% 50%, #763cac, rgba(50, 15, 133, 0));
-  	width: 642.3px;
-  	height: 720.4px;
-}
-.gradient3 {
-  	position: absolute;
-  	top: 222.5px;
-  	left: 810.44px;
-  	border-radius: 50%;
-  	background: radial-gradient(50% 50% at 50% 50%, #763cac, rgba(50, 15, 133, 0));
-  	width: 625.3px;
-  	height: 700.4px;
-}
-.gradient4 {
-  	position: absolute;
-  	top: 2504.17px;
-  	left: 810.17px;
-  	border-radius: 50%;
-  	background: radial-gradient(50% 50% at 50% 50%, #763cac, rgba(50, 15, 133, 0));
-  	width: 625.3px;
-  	height: 700.4px;
-}
-.gradient5 {
-  	position: absolute;
-  	top: 1390px;
-  	left: 811.96px;
-  	border-radius: 50%;
-  	background: radial-gradient(50% 50% at 50% 50%, #763cac, rgba(50, 15, 133, 0));
-  	width: 625.3px;
-  	height: 700.4px;
-}
-.gradient6 {
-  	position: absolute;
-  	top: 836.67px;
-  	left: 110.83px;
-  	border-radius: 50%;
-  	background: radial-gradient(50% 50% at 50% 50%, #763cac, rgba(50, 15, 133, 0));
-  	width: 572.3px;
-  	height: 641.3px;
-}
+.gradient,
+.gradient1,
+.gradient2,
+.gradient3,
+.gradient4,
+.gradient5,
+.gradient6,
 .gradient7 {
-  	position: absolute;
-  	top: 1997.5px;
-  	left: 110.83px;
-  	border-radius: 50%;
-  	background: radial-gradient(50% 50% at 50% 50%, #763cac, rgba(50, 15, 133, 0));
-  	width: 572.3px;
-  	height: 641.3px;
+	position: absolute;
+	border-radius: 50%;
+	width: 40vw;
+	max-width: 642px;
+	height: 45vw;
+	max-height: 720px;
+	background: radial-gradient(50% 50% at 50% 50%, #763cac, rgba(50, 15, 133, 0));
 }
-.bmw-m4-1 {
-  	position: absolute;
-  	top: 956.67px;
-  	left: 185.83px;
-  	width: 421.7px;
-  	height: 421.7px;
-  	object-fit: cover;
-}
-.bmw-m4-3 {
-  	position: absolute;
-  	top: 1547.5px;
-  	left: 831.67px;
-  	width: 421.7px;
-  	height: 421.7px;
-  	object-fit: cover;
-}
-.bmw-m4-2 {
-  	position: absolute;
-  	top: 2117.5px;
-  	left: 185.83px;
-  	width: 421.7px;
-  	height: 421.7px;
-  	object-fit: cover;
-}
-.mask-group-icon {
-  	position: absolute;
-  	top: 325.83px;
-  	left: 776.67px;
-  	width: 537.7px;
-  	height: 569.2px;
-  	object-fit: cover;
-}
+.gradient { top: 15vw; left: 37vw; }
+.gradient1 { top: 70vw; left: 37vw; }
+.gradient2 { top: 39vw; left: 39vw; }
+.gradient3 { top: 14vw; left: 50vw; width: 39vw; max-width: 625px; height: 44vw; max-height: 700px; }
+.gradient4 { top: 69vw; left: 50vw; width: 39vw; max-width: 625px; height: 44vw; max-height: 700px; }
+.gradient5 { top: 38vw; left: 51vw; width: 39vw; max-width: 625px; height: 44vw; max-height: 700px; }
+.gradient6 { top: 23vw; left: 7vw; width: 36vw; max-width: 572px; height: 41vw; max-height: 641px; }
+.gradient7 { top: 55vw; left: 7vw; width: 36vw; max-width: 572px; height: 41vw; max-height: 641px; }
+.bmw-m4-1,
+.bmw-m4-2,
+.bmw-m4-3,
+.mask-group-icon,
 .mask-group-icon1 {
-  	position: absolute;
-  	top: 2577.5px;
-  	left: 831.67px;
-  	width: 421.7px;
-  	height: 526.9px;
-  	object-fit: cover;
+	position: absolute;
+	width: 28vw;
+	max-width: 422px;
+	height: 28vw;
+	max-height: 422px;
+	object-fit: cover;
 }
-.card-icon {
-  	width: 669.4px;
-  	position: absolute;
-  	margin: 0 !important;
-  	top: 0px;
-  	left: 0px;
-  	height: 165.1px;
-  	object-fit: cover;
-  	z-index: 0;
+.bmw-m4-1 { top: 26vw; left: 12vw; }
+.bmw-m4-3 { top: 42vw; left: 54vw; }
+.bmw-m4-2 { top: 58vw; left: 12vw; }
+.mask-group-icon { top: 9vw; left: 50vw; width: 36vw; max-width: 538px; height: 38vw; max-height: 569px;}
+.mask-group-icon1 { top: 71vw; left: 54vw; width: 28vw; max-width: 422px; height: 35vw; max-height: 527px;}
+.card-icon,
+.card-icon3 {
+	width: 44vw;
+	max-width: 669.4px;
+	position: absolute;
+	margin: 0 !important;
+	left: 0;
+	top: 0;
+	height: 11vw;
+	max-height: 165.1px;
+	object-fit: cover;
+	z-index: 0;
 }
-.the-mercedes-amg-gt {
-  	width: 606.7px;
-  	position: relative;
-  	font-weight: 500;
-  	display: flex;
-  	align-items: center;
-  	flex-shrink: 0;
-  	z-index: 1;
+.the-mercedes-amg-gt,
+.the-bmw-m4,
+.neymar-jr-born {
+	width: 40vw;
+	max-width: 606.7px;
+	position: relative;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	z-index: 1;
 }
 .card-parent {
-  	position: absolute;
-  	top: 100.05px;
-  	left: 0px;
-  	width: 669.4px;
-  	height: 165.1px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: flex-start;
-  	padding: 25.8px 31.7px;
-  	box-sizing: border-box;
-  	gap: 8.3px;
+	position: absolute;
+	top: 6vw;
+	left: 0;
+	width: 44vw;
+	max-width: 669.4px;
+	height: 11vw;
+	max-height: 165.1px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 1.7vw 2vw;
+	box-sizing: border-box;
+	gap: 0.5vw;
 }
-.mercedes-amg-gtr {
-  	position: absolute;
-  	top: 19.01px;
-  	left: 2px;
-  	font-size: 34.02px;
-  	letter-spacing: 0.02em;
-  	text-transform: uppercase;
-  	font-weight: 600;
-}
-.poster {
-  	position: absolute;
-  	top: 0px;
-  	left: 2px;
-  	font-size: 16.01px;
-  	letter-spacing: 0.02em;
-  	font-weight: 600;
-  	color: #9857d3;
-}
-.portfolio-text {
-  	position: absolute;
-  	top: 437.62px;
-  	left: 186.1px;
-  	width: 669.4px;
-  	height: 265.1px;
-}
-.portfolio-text1 {
-  	position: absolute;
-  	top: 2719.28px;
-  	left: 185.83px;
-  	width: 669.4px;
-  	height: 265.1px;
-}
-.portfolio-text2 {
-  	position: absolute;
-  	top: 1582.62px;
-  	left: 186.67px;
-  	width: 669.4px;
-  	height: 265.1px;
-}
-.card-icon3 {
-  	position: absolute;
-  	top: 96.05px;
-  	left: 0px;
-  	width: 669.4px;
-  	height: 165.1px;
-  	object-fit: cover;
-}
-.the-bmw-m4 {
-  	position: absolute;
-  	top: 118.33px;
-  	left: 35.83px;
-  	font-weight: 500;
-  	display: flex;
-  	align-items: center;
-  	width: 564.2px;
-}
-.bmw-m4 {
-  	position: absolute;
-  	top: 17.75px;
-  	left: 519.3px;
-  	font-size: 34.02px;
-  	letter-spacing: 0.02em;
-  	font-weight: 600;
-}
-.poster3 {
-  	position: absolute;
-  	top: 0px;
-  	left: 606.62px;
-  	font-size: 16.01px;
-  	letter-spacing: 0.02em;
-  	font-weight: 600;
-  	color: #9857d3;
-}
-.portfolio-text3 {
-  	position: absolute;
-  	top: 1002.5px;
-  	left: 584.17px;
-  	width: 671.3px;
-  	height: 261.1px;
-  	font-size: 16.02px;
-}
-.neymar-jr-born {
-  	position: absolute;
-  	top: 110.83px;
-  	left: 48.33px;
-  	font-weight: 500;
-  	display: flex;
-  	align-items: center;
-  	width: 527.5px;
-}
+.mercedes-amg-gtr,
+.bmw-m4,
 .neymer-jr {
-  	position: absolute;
-  	top: 17.5px;
-  	left: 480.83px;
-  	font-size: 34.02px;
-  	letter-spacing: 0.02em;
-  	font-weight: 600;
+	position: absolute;
+	top: 1.2vw;
+	font-size: 2vw;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	font-weight: 600;
 }
+.mercedes-amg-gtr { left: 0.1vw; }
+.bmw-m4 { left: 31vw; }
+.neymer-jr { left: 29vw; }
+.poster,
+.poster3 {
+	position: absolute;
+	top: 0;
+	font-size: 1vw;
+	letter-spacing: 0.02em;
+	font-weight: 600;
+	color: #9857d3;
+}
+.poster { left: 0.1vw; }
+.poster3 { left: 39vw; }
+.portfolio-text,
+.portfolio-text1,
+.portfolio-text2,
+.portfolio-text3,
 .portfolio-text4 {
-  	position: absolute;
-  	top: 2163.33px;
-  	left: 584.17px;
-  	width: 670.8px;
-  	height: 261.1px;
-  	font-size: 14.98px;
+	position: absolute;
+	width: 44vw;
+	max-width: 669.4px;
+	height: 18vw;
+	max-height: 265.1px;
+	font-size: 1vw;
 }
+.portfolio-text { top: 29vw; left: 12vw; }
+.portfolio-text1 { top: 79vw; left: 12vw; }
+.portfolio-text2 { top: 46vw; left: 12vw; }
+.portfolio-text3 { top: 30vw; left: 37vw; width: 45vw; max-width: 671.3px; height: 17vw; max-height: 261.1px; font-size: 1vw;}
+.portfolio-text4 { top: 65vw; left: 37vw; width: 45vw; max-width: 670.8px; height: 17vw; max-height: 261.1px; font-size: 0.9vw;}
 .sa-designs-page {
-  	width: 100%;
-  	position: relative;
-  	background-color: #fff;
-  	height: 5477.5px;
-  	overflow: hidden;
-  	text-align: left;
-  	font-size: 18.01px;
-  	color: #ccd6f6;
-  	font-family: Poppins;
+	width: 100vw;
+	position: relative;
+	background-color: #fff;
+	height: auto;
+	min-height: 100vh;
+	overflow: hidden;
+	text-align: left;
+	font-size: 1.2vw;
+	color: #ccd6f6;
+	font-family: Poppins;
 }
 
+/* Responsive adjustments */
+@media (max-width: 900px) {
+	.header1, .header, .footer1, .footer {
+		font-size: 4vw;
+		height: 10vw;
+	}
+	.sa-graphics, .sa-graphics2, .sa-1-icon {
+		font-size: 3vw;
+		width: 11vw;
+	}
+	.sa-1-parent {
+		font-size: 6vw;
+	}
+	.frame-parent {
+		gap: 2vw;
+	}
+	.home-wrapper, .projects-wrapper, .designs-wrapper {
+		min-width: 100px;
+		height: 5vw;
+		padding: 2vw 2vw;
+		font-size: 2vw;
+	}
+	.vector-parent {
+		gap: 4vw;
+	}
+	.gradient, .gradient1, .gradient2, .gradient3, .gradient4, .gradient5, .gradient6, .gradient7 {
+		width: 60vw;
+		height: 70vw;
+	}
+	.card-icon, .card-icon3, .portfolio-text, .portfolio-text1, .portfolio-text2, .portfolio-text3, .portfolio-text4 {
+		width: 80vw;
+		font-size: 2vw;
+	}
+	.bmw-m4-1, .bmw-m4-2, .bmw-m4-3, .mask-group-icon, .mask-group-icon1 {
+		width: 45vw;
+		height: 45vw;
+	}
+}
+
+@media (max-width: 600px) {
+	.header1, .header, .footer1, .footer {
+		font-size: 6vw;
+		height: 15vw;
+	}
+	.sa-graphics, .sa-graphics2, .sa-1-icon {
+		font-size: 5vw;
+		width: 20vw;
+	}
+	.sa-1-parent {
+		font-size: 10vw;
+	}
+	.frame-parent {
+		gap: 5vw;
+		flex-direction: column;
+	}
+	.home-wrapper, .projects-wrapper, .designs-wrapper {
+		min-width: 70px;
+		height: 9vw;
+		padding: 3vw 2vw;
+		font-size: 4vw;
+	}
+	.vector-parent {
+		gap: 7vw;
+	}
+	.gradient, .gradient1, .gradient2, .gradient3, .gradient4, .gradient5, .gradient6, .gradient7 {
+		width: 90vw;
+		height: 90vw;
+	}
+	.card-icon, .card-icon3, .portfolio-text, .portfolio-text1, .portfolio-text2, .portfolio-text3, .portfolio-text4 {
+		width: 95vw;
+		font-size: 3vw;
+	}
+	.bmw-m4-1, .bmw-m4-2, .bmw-m4-3, .mask-group-icon, .mask-group-icon1 {
+		width: 80vw;
+		height: 80vw;
+	}
+	.connect-parent, .vector-parent {
+		left: 5vw;
+		width: 90vw;
+	}
+}
+
+/* Utility for hiding overflow if needed */
+@media (max-width: 900px) {
+	.sa-designs-page {
+		padding-bottom: 20vw;
+	}
+}
