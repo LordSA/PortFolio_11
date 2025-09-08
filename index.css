@@ -841,3 +841,196 @@
   	font-family: Preahvihear;
 }
 
+@media (max-width: 1400px) {
+  .footer1, .footer, .header1, .header, .background-icon {
+    width: 100vw;
+    left: 0;
+    max-width: 100%;
+  }
+  .vector-parent {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .connect-parent {
+    left: 5vw;
+    width: 80vw;
+    max-width: 100%;
+  }
+  .intro {
+    left: 5vw;
+    width: 90vw;
+  }
+  .work-experiance {
+    left: 5vw;
+    width: 90vw;
+  }
+  .skills {
+    left: 5vw;
+    width: 90vw;
+    max-width: 100vw;
+  }
+}
+
+/* Medium Devices (Tablets) */
+@media (max-width: 900px) {
+  .footer1, .footer, .header1, .header, .background-icon {
+    width: 100vw;
+    left: 0;
+    height: auto;
+    min-height: 120px;
+  }
+  .frame-parent {
+    gap: 20vw;
+    left: 5vw;
+    flex-wrap: wrap;
+  }
+  .sa-graphics, .sa-graphics2 {
+    font-size: 4vw;
+  }
+  .intro, .work-experiance, .skills {
+    left: 2vw;
+    width: 96vw;
+    font-size: 4vw;
+    gap: 4vw;
+  }
+  .experience, .experience1, .experience-parent {
+    flex-direction: column;
+    gap: 2vw;
+    width: 100%;
+    min-width: 0;
+  }
+  .gradient-parent {
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    padding: 4vw;
+    gap: 2vw;
+  }
+  .hello-i-am, .a-designer-who-believes-parent {
+    left: 0;
+    width: 90vw;
+    font-size: 4vw;
+  }
+  .me-time {
+    left: 0;
+    width: 100vw;
+    font-size: 5vw;
+    height: auto;
+  }
+}
+
+/* Small Devices (Mobiles) */
+@media (max-width: 600px) {
+  .footer1, .footer, .header1, .header, .background-icon {
+    width: 100vw;
+    left: 0;
+    min-width: 0;
+    height: auto;
+    min-height: 80px;
+    font-size: 3vw;
+  }
+  .frame-parent {
+    gap: 4vw;
+    left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+    font-size: 4vw;
+  }
+  .home-wrapper, .designs-wrapper, .projects-wrapper {
+    width: 80vw;
+    height: 10vw;
+    padding: 2vw 4vw;
+    font-size: 4vw;
+    margin-bottom: 2vw;
+  }
+  .sa-1-parent {
+    gap: 2vw;
+    font-size: 8vw;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .intro, .work-experiance, .skills {
+    left: 0;
+    width: 98vw;
+    font-size: 5vw;
+    gap: 6vw;
+    padding: 2vw;
+  }
+  .gradient-parent {
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    padding: 4vw;
+    gap: 2vw;
+  }
+  .hello-i-am, .a-designer-who-believes-parent {
+    left: 0;
+    width: 90vw;
+    font-size: 5vw;
+    line-height: 1.2;
+  }
+  .me-time {
+    left: 0;
+    width: 98vw;
+    font-size: 6vw;
+    height: auto;
+    padding: 2vw;
+  }
+  .experience, .experience1 {
+    width: 98vw;
+    min-width: 0;
+    min-height: 0;
+    flex-direction: column;
+    gap: 4vw;
+    font-size: 4vw;
+    padding: 2vw;
+  }
+  .image-1-icon, .logo-icon, .iedc-logo-icon, .images-picsart-backgroundremov-icon {
+    width: 24vw;
+    height: 24vw;
+    left: 2vw;
+    top: 2vw;
+  }
+  .skills-inner {
+    width: 98vw;
+    height: auto;
+  }
+  .sa-home-page {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 80px;
+  }
+}
+
+
+/* Extra: Make images and icons always scale down */
+img, .vector-icon, .vector-icon1, .vector-icon2, .vector-icon3, .vector-icon4, .vector-icon5,
+.sa-1-icon, .mask-group-icon, .logo-icon, .logoss-icon, .iedc-logo-icon, .images-picsart-backgroundremov-icon {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Extra: Make main containers scrollable on small screens if overflow */
+.sa-home-page, .skills, .intro, .work-experiance, .experience, .experience1 {
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+/* Extra: Prevent overflow for main content */
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Typography Adjustments for small screens */
+@media (max-width: 600px) {
+  .simplicity-is-the-container {
+    font-size: 7vw;
+  }
+  .im-a-self-taught, .im-currently-looking-container, .cross-functional {
+    font-size: 4vw;
+  }
+}
